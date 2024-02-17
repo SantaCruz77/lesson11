@@ -13,14 +13,25 @@
 #header {
   background-color: #f00;
 }
+#side1 {
+  background-color: #ff0;
+  width: 200px;
+  float: left;
+}
 #main {
-  width: 500px;
   background-color: #0f0;
+  width: 360px;
   float: right;
 }
-#side {
-  width: 280px;
+#side2 {
   background-color: #00f;
+  width: 200px;
+  float: right;
+}
+#contents {
+  background-color: #000;
+  border: #000 3px solid;
+  width: 580px;
   float: left;
 }
 #footer {

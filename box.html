@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>格子状レイアウトサンプル</title>
+	<link rel="stylesheet" href="box-style.css" media="all">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tile.js"></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="header">ヘッダー領域<br>ヘッダー領域<br>ヘッダー領域</div>
+		<ul class="box">
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+			<li class="tile_box_1"><img src="image.png" alt=""></li>
+		</ul>
+		<div id="footer">フッター領域<br>フッター領域<br>フッター領域</div>
+	</div>
+	<script>
+		$(window).load(function () {
+			$('.tile_box_1').tile();
+		});
+	</script>
+</body>
+
+</html>
